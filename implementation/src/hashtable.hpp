@@ -19,7 +19,6 @@ class HashTable {
         HashTable(int inital_size);
         HashTable(int inital_size, std::function<int(int, int)> hash_fn);
 
-        int  getCapacity();
         void insert(int key, int value);
         void remove(int key);
         void print();

@@ -45,10 +45,6 @@ HashTable::HashTable(int inital_size, std::function<int(int, int)> hash_fn)
     h = hash_fn;
 }
 
-int HashTable::getCapacity() {
-    return capacity;
-}
-
 void HashTable::insert(int key, int value) {
     num_elements++;
     if(num_elements == capacity) {
