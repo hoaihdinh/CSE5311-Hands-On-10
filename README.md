@@ -8,7 +8,7 @@ make
 ```
 ./hash_table
 ```
-# Output
+### Output
 ```
 >>> Hash Table <<<
 Index	|	Key:Value List
